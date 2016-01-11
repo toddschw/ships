@@ -1,8 +1,6 @@
+#API Documentation
 
-API Documentation
-==============
-
-These are sample requests:
+##These are sample requests:
 
 CREATE
 
@@ -39,9 +37,7 @@ DESTROY
 curl -i -H "Accept: application/JSON" -X DELETE https://fathomless-shelf-9413.herokuapp.com/api/items/12
 ```
 
-----------------------------------------------
-
-Script to load products.JSON (as a rake task)
+##Script to load products.JSON (as a rake task)
 
 ```
 task :populatedb => :environment do
@@ -59,21 +55,4 @@ task :populatedb => :environment do
     end
 end
 ```
-
-
-
-Will become a heading
-==============
-
-Will become a sub heading
---------------
-
-*This will be Italic*
-
-**This will be Bold**
-
-- This will be a list item
-- This will be a list item
-
-    Add a indent and this will end up as code
 
