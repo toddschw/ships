@@ -41,6 +41,8 @@ curl -i -H "Accept: application/JSON" -X DELETE https://fathomless-shelf-9413.he
 
 ##Script to load products.JSON (as a rake task)
 
+**Note:  I have renamed the "type" data field as "category" in my products.JSON file** 
+
 ```
 task :populatedb => :environment do
     require 'json'
