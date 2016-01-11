@@ -14,7 +14,7 @@ class Api::ItemsController < ApplicationController
         # Integer response from Item.query
         best_match = Item.find (query_response)
         best_match = best_match.category + " - " + best_match.name
-        render status: 200, json: { "Best Match" =>  best_match }
+        render status: 200, json: { best_match }
       else
         # String Response from Item.query
         error_msg = query_response

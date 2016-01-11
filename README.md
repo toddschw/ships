@@ -57,4 +57,4 @@ task :populatedb => :environment do
     end
 end
 ```
-
+curl -i -H "Accept: application/JSON" -X DELETE https://fathomless-shelf-9413.herokuapp.com/api/items/13
