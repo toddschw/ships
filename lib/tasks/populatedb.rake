@@ -1,5 +1,4 @@
 task :populatedb => :environment do
-
     require 'json'
 
     file = File.read('products.json')
@@ -7,7 +6,6 @@ task :populatedb => :environment do
 
     data_hash.each do | key, value |
       record_count = value.count
-
       for i in 0..(record_count - 1)
          item = Item.new value[i]
          item.save
