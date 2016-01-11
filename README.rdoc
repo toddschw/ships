@@ -1,6 +1,6 @@
-== README / API Documentation 
+== README / API Documentation
 
-These are sample requests
+These are sample requests:
 
 CREATE
 1. Creates a product
@@ -25,6 +25,7 @@ curl -i -H "Accept: application/JSON" -X DELETE https://fathomless-shelf-9413.he
 
 Script to load products.JSON (as a rake task)
 
+```ruby
 task :populatedb => :environment do
     require 'json'
 
@@ -39,3 +40,4 @@ task :populatedb => :environment do
       end
     end
 end
+```
