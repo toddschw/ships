@@ -1,6 +1,8 @@
-#API Documentation
+#ShipSticks Ruby Challenge
 
-##These are sample requests:
+##API Documentation
+
+###These are CRUD sample requests:
 
 CREATE
 
