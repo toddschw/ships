@@ -27,14 +27,14 @@ curl -i -H "Accept: application/JSON" -H "Content-type: application/JSON" -X GET
 
 UPDATE
 
-1. Updates a product
+1. Updates a product (ie the one with ID=12)
 ```
 curl -i -H "Accept: application/JSON" -H "Content-type: application/JSON" -X PUT -d '{"length":10,"width":20,"height":30,"weight":50}' https://fathomless-shelf-9413.herokuapp.com/api/items/12
 ```
 
 DESTROY
 
-1. Deletes a product
+1. Deletes a product (ie the one with ID=12)
 ```
 curl -i -H "Accept: application/JSON" -X DELETE https://fathomless-shelf-9413.herokuapp.com/api/items/12
 ```
